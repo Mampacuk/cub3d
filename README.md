@@ -1,10 +1,15 @@
 # cub3d
 ## Foreword
 Hi there,
+
 I'm Alexander,
+
 Here's a clean version of cub3d created for School 42's curriculum.
+
 I know how *frustrating* it is to work with minilibx, that's why I'm uploading my work to web for other students to see.
+
 I tried to write my code in the clearest, most non-confusing way for you to understand. Hope this implementation will help you in completing this project.
+
 The code itself should be self-explanatory.
 ## Sources
 Here are the sources I used that helped me to figure out a lot:
