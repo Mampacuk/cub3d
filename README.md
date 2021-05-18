@@ -17,5 +17,6 @@ Here are the sources I used that helped me to figure out a lot:
 *	https://harm-smits.github.io/42docs/projects/cub3d
 	*	https://lodev.org/cgtutor/raycasting.html
 	*	https://lodev.org/cgtutor/raycasting3.html
+*	https://www.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort
 ## Contacts
 Should you have any questions, feel free to email me at alexanderisraelyan@gmail.com. Cheers <3
