@@ -14,6 +14,10 @@
 
 void	ft_getresolution(t_parsed *res, char *line)
 {
+	int	nativeh;
+	int	nativew;
+
+	mlx_get_screen_size(res->scr.mlx, &nativew, &nativeh);
 	if (ft_strchr(line, 'R') && *(ft_strchr(line, 'R') + 1) == ' ')
 	{
 		if (res->w >= 0 || res->h >= 0)
@@ -29,8 +33,10 @@ void	ft_getresolution(t_parsed *res, char *line)
 			res->h = ft_atoi(ft_fetchdigit(line));
 		else
 			ft_exit("The height of screen is not specified.");
-		if (res->w == 0 || res->h == 0)
-			ft_exit("Resolution must be non-zero.");
+		if (res->w > nativew)
+			res->w = nativew;
+		if (res->h > nativeh)
+			res->h = nativeh;
 	}
 }
 

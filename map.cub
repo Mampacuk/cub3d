@@ -6,7 +6,7 @@ C 220,120,90
         SO textures/eagle.xpm
  EA textures/redbrick.xpm
 
-            R             2048 1152
+            R             8000 1152
  S textures/barrel.xpm
 F 255,255,255
 

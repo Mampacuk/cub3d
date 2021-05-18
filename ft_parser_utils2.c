@@ -14,7 +14,7 @@
 
 int		ft_check_resources(t_parsed *res)
 {
-	return (res->w < 0 || res->h < 0 || res->so == NULL
+	return (res->w <= 0 || res->h <= 0 || res->so == NULL
 	|| res->we == NULL || res->no == NULL || res->ea == NULL
 	|| res->spr == NULL || res->fcolor <= 0 || res->ccolor <= 0);
 }
