@@ -1,4 +1,4 @@
-NAME = cub3D
+NAME = cub3d
 
 LIBFT_DIR = ./libft
 LIBFT = $(LIBFT_DIR)libft.a
@@ -23,7 +23,7 @@ $(NAME): $(OBJ) $(LIBFT) $(LIBMLX)
 	@cd $(LIBFT_DIR) && mv ./libft.a ../
 	@echo [cub3d] Compiling mlx...
 	@cd $(LIBMLX_DIR) && mv ./libmlx.dylib ../
-	@echo [cub3d] Compiling cub3D...
+	@echo [cub3d] Compiling cub3d...
 	@$(CC) $(FLAG) $(OBJ) -L. -lmlx -lft $(FLAGSMLX) $(OPTIONOBJ) $(NAME)
 	@echo [cub3d] cub3d successfully compiled. Run ./cub3d \*.cub to read from a map. Provide --save as the second argument for a screenshot.
 
