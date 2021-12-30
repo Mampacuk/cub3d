@@ -1,5 +1,5 @@
 # cub3d
-School 42's project "cub3d" implementation (no big bonuses, essentialy the mandatory part).
+School 42 project "cub3d" implementation (no big bonuses, essentialy the mandatory part).
 ## Foreword
 Hi there,
 
